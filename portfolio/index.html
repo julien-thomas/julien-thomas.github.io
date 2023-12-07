@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Julien Thomas</title>
+    <link rel="stylesheet" href="./public/css/normalize.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="icon" type="image/png" href="./public/img/logo2.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/db9d3048dd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Nova+Square&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section  id="home" class="home">
+    </section>
+    <header class="bg-black p-3 sticky-top">
+        <div>
+            <nav class="border-bottom border-body navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand text-white text-uppercase fs-1" href="#">Julien THOMAS</a>
+                    <button class="navbar-toggler btn btn-light bg-secondary text-white" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav fs-3">
+                            <li class="nav-item">
+                                <a class="nav-link text-white-50 btn btn-secondary" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white-50 btn btn-secondary" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white-50 btn btn-secondary" href="#competence">Compétences</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link text-white-50 btn btn-secondary" href="#contact">Contact</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- <div id="particles-js"></div> -->
+    <main id="top" class="bg-secondary text-white p-3 text-center">
+
+        <section id="presentation" class="p-5 m-3">
+            <div class="container">
+                <h2 class="display-2 text-uppercase module-title m-5">Présentation
+                    <span class="text-center">Faisons Connaissance</span>
+                </h2>
+                <p class="fs-3 p-3 lead">
+                    Bonjour, je suis <strong>Julien THOMAS</strong> , un développeur passionné en reconversion,
+                    <br>animé par la curiosité et
+                    la volonté constante d'apprendre.
+                </p>
+                <p class="fs-3 p-3 lead">
+                    Fort d'une expérience professionnelle dans l'audiovisuel,<br> je me lance désormais avec
+                    enthousiasme
+                    dans le monde du développement informatique.
+                </p>
+                <p class="fs-3 p-3 lead">
+                    Merci de visiter mon portfolio, et n'hésitez pas à explorer mes projets pour en savoir plus
+                    <br>sur
+                    mes compétences et mon approche du développement.
+                </p>
+            </div>
+        </section>
+        <section id="portfolio" class="p-5 m-3">
+            <div class="container">
+                <h2 class="display-2 text-uppercase module-title m-5">Portfolio
+                    <span class="text-center">Mes Réalisations</span>
+                </h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row align-items-end row-gap-3">
+                    <div class="col">
+                        <!-- Trigger -->
+                        <div class="card bg-light" style="--bs-bg-opacity: .7;">
+                            <img class="card-img-top" src="public/img/portfolio/bubble_my_tea_cart.png"
+                                data-toggle="modal" data-bs-toggle="modal" data-bs-target="#portfolioModalBubble"
+                                alt="Bubble My Tea">
+                            <div class="card-body">
+                                <h4>Bubble My Tea</h4>
+                                <p class="card-text">(HTML5/CSS3, PHP, Laravel, Blade, Tailwindcss, MySQL)</p>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade modal-lg bg-secondary text-black" style="--bs-bg-opacity: .5;"
+                            id="portfolioModalBubble" tabindex="-1" aria-labelledby="portfolioModalBubble"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content bg-light">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="portfolioModalBubble">Bubble My Tea</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="item-intro text-muted">Site e-commerce</p>
+                                        <img class="img-fluid d-block mx-auto"
+                                            src="public/img/portfolio/bubble_my_tea_cart.png" alt="Bubble My Tea">
+                                        <br>
+                                        <hr>
+                                        <p>Site e-commerce<br>
+                                            Développé avec :<br> HTML5/CSS3, PHP, Laravel, Blade, Tailwindcss,
+                                            MySQL.
+                                        </p>
+                                        <hr>
+                                        <ul class="unstyled">
+                                            <li>Date: Août 2023</li>
+                                            <li>Categorie: Site e-commerce</li>
+                                        </ul>
+                                        <a href="https://github.com/julien-thomas/bubble_my_tea.git" target="_blank"
+                                            class="btn btn-secondary">
+                                            Bubble My Tea sur github</a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card bg-light" style="--bs-bg-opacity: .7;">
+                            <img class="card-img-top" src="public/img/portfolio/the_hyrule_castle_boss.png"
+                                data-toggle="modal" data-bs-toggle="modal" data-bs-target="#portfolioModalHyrule"
+                                alt="The Hyrule Castle">
+                            <div class="card-body">
+                                <h4>The Hyrule Castle</h4>
+                                <p class="card-text">(TypeScript)</p>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade modal-lg bg-secondary text-black" style="--bs-bg-opacity: .5;"
+                            id="portfolioModalHyrule" tabindex="-1" aria-labelledby="portfolioModalHyrule"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content bg-light">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="portfolioModalHyrule">The Hyrule Castle</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="item-intro text-muted">RPG</p>
+                                        <img class="img-fluid d-block mx-auto"
+                                            src="public/img/portfolio/the_hyrule_castle_boss.png"
+                                            alt="The Hyrule Castle">
+                                        <br>
+                                        <hr>
+                                        <p>RPG sur terminal<br>
+                                            Développé avec :<br> TypeScript.
+                                        </p>
+                                        <hr>
+                                        <ul class="unstyled">
+                                            <li>Date: Octobre 2023</li>
+                                            <li>Categorie: RPG</li>
+                                        </ul>
+                                        <a href="https://github.com/julien-thomas/the_hyrule_castle.git" target="_blank"
+                                            class="btn btn-secondary">
+                                            The Hyrule Castle sur github</a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card bg-light" style="--bs-bg-opacity: .7;">
+                            <img class="card-img-top" src="public/img/portfolio/my_api_get_all_users.png"
+                                data-toggle="modal" data-bs-toggle="modal" data-bs-target="#portfolioModalAPI"
+                                alt="My API">
+                            <div class="card-body">
+                                <h4>My API</h4>
+                                <p class="card-text">(JavaScript, Express, Node.js, Jsonwebtoken, Postman, MariaDB)
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade modal-lg bg-secondary text-black" style="--bs-bg-opacity: .5;"
+                            id="portfolioModalAPI" tabindex="-1" aria-labelledby="portfolioModalAPI" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content bg-light">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="portfolioModalAPI">My API</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="item-intro text-muted">API</p>
+                                        <img class="img-fluid d-block mx-auto"
+                                            src="public/img/portfolio/my_api_get_all_users.png" alt="My API">
+                                        <br>
+                                        <hr>
+                                        <p>API<br>
+                                            Développé avec :<br> JavaScript, Express, Node.js, Jsonwebtoken,
+                                            Postman,
+                                            MySQL.
+                                        </p>
+                                        <hr>
+                                        <ul class="unstyled">
+                                            <li>Date: Novembre 2023</li>
+                                            <li>Categorie: API</li>
+                                        </ul>
+                                        <a href="https://github.com/julien-thomas/myAPI.git" target="_blank"
+                                            class="btn btn-secondary">My API
+                                            sur
+                                            github</a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card bg-light" style="--bs-bg-opacity: .7;">
+                            <img class="card-img-top" src="public/img/portfolio/my_irc.png" data-toggle="modal"
+                                data-bs-toggle="modal" data-bs-target="#portfolioModalIRC" alt="My IRC">
+                            <div class="card-body">
+                                <h4>My IRC</h4>
+                                <p class="card-text">(HTML5/CSS3, TypeScript, Express, Node.js, , MariaDB)</p>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade modal-lg bg-secondary text-black" style="--bs-bg-opacity: .5;"
+                            id="portfolioModalIRC" tabindex="-1" aria-labelledby="portfolioModalIRC" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content bg-light">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="portfolioModalIRC">My IRC</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="item-intro text-muted">IRC</p>
+                                        <img class="img-fluid d-block mx-auto" src="public/img/portfolio/my_irc.png"
+                                            alt="My IRC">
+                                        <br>
+                                        <hr>
+                                        <p>IRC<br>
+                                            Développé avec :<br> HTML5/CSS3, TypeScript, Express, Node.js, ,
+                                            MariaDB.
+                                        </p>
+                                        <hr>
+                                        <ul class="unstyled">
+                                            <li>Date: Octobre 2023</li>
+                                            <li>Categorie: IRC</li>
+                                        </ul>
+                                        <a href="https://github.com/julien-thomas/my_irc.git" target="_blank"
+                                            class="btn btn-secondary">My IRC
+                                            sur
+                                            github</a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card bg-light" style="--bs-bg-opacity: .7;">
+                            <img class="card-img-top" src="public/img/portfolio/mon_petit_bouchon_accueil.png"
+                                data-toggle="modal" data-bs-toggle="modal" data-bs-target="#portfolioModalMPB"
+                                alt="Mon petit bouchon">
+                            <div class="card-body">
+                                <h4>Mon petit bouchon</h4>
+                                <p class="card-text">(HTML5/CSS3, SASS, PHP, JavaScript, MySQL)</p>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade modal-lg bg-secondary text-black" style="--bs-bg-opacity: .5;"
+                            id="portfolioModalMPB" tabindex="-1" aria-labelledby="portfolioModalMPB" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content bg-light">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="portfolioModalMPB">Mon petit bouchon</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="item-intro text-muted">Site e-commerce</p>
+                                        <img class="img-fluid d-block mx-auto"
+                                            src="public/img/portfolio/mon_petit_bouchon_accueil.png" alt="My IRC">
+                                        <br>
+                                        <hr>
+                                        <p>Site e-commerce<br>
+                                            Développé avec :<br> HTML5/CSS3, PHP, JavaScript, MySQL.
+                                        </p>
+                                        <hr>
+                                        <ul class="unstyled">
+                                            <li>Date: Août 2023</li>
+                                            <li>Categorie: site e-commerce</li>
+                                        </ul>
+                                        <a href="https://github.com/julien-thomas/mon_petit_bouchon.git" target="_blank"
+                                            class="btn btn-secondary">
+                                            Mon Petit Bouchon sur github</a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="competence" class="p-5 m-3">
+            <div class="container">
+                <h2 class="display-2 text-uppercase module-title m-5">Compétences
+                    <span class="text-center">à votre service</span>
+                </h2>
+                <div class="fs-3">
+                    <p>Au fil de ma reconversion, j'ai eu l'opportunité de travailler sur divers projets
+                        passionnants.
+                        Ces expériences m'ont permis de développer mes compétences en collaboration, en gestion de
+                        projet et
+                        en résolution de problèmes.
+                    </p>
+                    <p>
+                        Je maîtrise plusieurs langages de programmation et technologies :
+                    </p>
+                </div>
+                <div class="m-3 p-4">
+                    <i class="fa-brands fa-html5 fa-2xl p-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-css3-alt fa-2xl p-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-sass fa-2xl p-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-php fa-2xl p-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-node fa-2xl p-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-js fa-2xl p-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-docker fa-2xl p-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-git-alt fa-2xl p-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-laravel fa-2xl p-2" style="color: #000000;"></i>
+                    <i class="fa-brands fa-bootstrap fa-2xl p-2" style="color: #000000;"></i>
+                </div>
+            </div>
+            <div>
+                <p class="fs-3 text-white text-center">
+                    Si vous êtes à la recherche d'un développeur passionné et déterminé à contribuer au succès de
+                    votre
+                    projet, n'hésitez pas à me contacter. Je suis toujours ouvert aux nouvelles collaborations et
+                    aux
+                    défis stimulants.
+                </p>
+            </div>
+            <div class="text-center p-3">
+                <a href="mailto:julien.thomas.mg@gmail.com"><i class="fa-solid fa-envelope fa-beat-fade fa-2xl p-2"
+                        style="color: #ffffff;"></i></a>
+                <a href="https://github.com/julien-thomas" target="_blank"><i
+                        class="fa-brands fa-github fa-beat-fade fa-2xl p-2" style="color: #ffffff;"></i></a>
+                <a href="https://www.linkedin.com/in/julien-thomas-06262a2a" target="_blank"><i
+                        class="fa-brands fa-linkedin fa-beat-fade fa-xl p-2" style="color: #ffffff;"></i></a>
+            </div>
+        </section>
+    </main>
+<!-- </div> -->
+    <footer class="bg-black p-4">
+        <div class="text-center text-white fs-5 fw-bold">
+            <p>&#169; Julien THOMAS | 2023 </p>
+            <img src="./public/img/logo2.png" alt="logo" style="width: 40px;" class="">
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="particles.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

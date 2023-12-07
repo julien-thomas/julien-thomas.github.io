@@ -1,0 +1,158 @@
+/* *****************************************************************
+TOOLS
+***************************************************************** */
+
+/* Box sizing */
+* {
+	box-sizing: border-box;
+	/* We specify that the width of each box includes the padding and the border (by default, it is only the width of the content) */
+}
+
+/* 1rem = 10px */
+html {
+	font-size: 62.5%;
+	/* 1rem = 10px (the formula is 10/16*100) the default size being 16px */
+}
+
+/* Body */
+body {
+	font-size: 1.6rem;
+	/* we reset the default text size for the body to 16px (using rem as unit) */
+}
+
+/* unstyled */
+ol.unstyled,
+ul.unstyled {
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* .container {
+    max-width: 1140px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+ */
+
+video {
+	max-width: 100%;
+}
+
+img {
+	max-width: 100%;
+	width: auto;
+	/* pour ie */
+	height: auto;
+	-ms-interpolation-mode: bicubic;
+	/* lissage pour IE */
+	image-rendering: -webkit-optimize-contrast;
+	/* lissage pour Chrome au redimensionnement*/
+}
+
+/* *****************************************************************
+FONTS
+***************************************************************** */
+
+main {
+	font-family: 'Abel', sans-serif;
+}
+
+/* header {
+	font-family: 'Nova-square', sans-serif;
+} */
+
+/* *****************************************************************
+BODY
+***************************************************************** */
+
+.home {
+	background-image: url('../img/desktop16-9.jpg');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.link {
+	text-decoration: none;
+	color: gray;
+}
+
+.link:hover {
+	background-color: grey;
+	color: white;
+}
+
+.module-title {
+	position: relative;
+}
+
+.module-title span {
+	font-size: 10rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -40px;
+	z-index: 0;
+	opacity: 0.05;
+	font-weight: 700;
+}
+
+.logo {
+	width: 100px;
+}
+
+/* .presentation {
+	position: absolute;
+    top: 60%;
+    width: 100%;
+} */
+
+/* *****************************************************************
+PARTICLES
+***************************************************************** */
+
+/* ---- base ---- */
+
+/* html,
+body {
+	width: 100%;
+	height: 100%;
+	background: #111;
+}
+
+html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+	background: transparent;
+	vertical-align: baseline;
+}
+
+body {
+	font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+	display: block;
+	vertical-align: bottom;
+} */
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+	width: 100%;
+	height: 100%;
+	background-color: #a0a1a2;
+	background-image: url('');
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
